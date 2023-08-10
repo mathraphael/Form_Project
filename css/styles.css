@@ -29,6 +29,7 @@ input{
 input[type = "text"],
 input[type = "number"],
 input[type = "date"],
+input[type = "textarea"],
 input[type = "file"]{
     width: 400px;
     background-color: #edebeb;
@@ -51,4 +52,8 @@ input[type = "file"]{
     margin: 0 auto;
     position: relative;
     top: -62px;
+}
+
+textarea{
+    padding: 10px 5px;
 }
